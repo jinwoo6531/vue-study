@@ -2,7 +2,6 @@
 <div class="menu">
   <a v-for="(item,i) in menus" :key="i">{{item}}</a>
 </div>
-
   <img alt="Vue logo" src="./assets/logo.png">
 
   <div v-for="(item,i) in products" :key="i">
@@ -10,8 +9,6 @@
     <button @click="increase">허위매물신고</button> <span>신고수 : {{num}}</span>
   </div>
 
-  
-  
 </template>
 
 <script>
