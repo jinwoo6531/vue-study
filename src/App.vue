@@ -7,14 +7,9 @@
       <button @click="modal = false">닫기</button>
     </div>
   </div>
-
-
 <div class="menu">
   <a v-for="(item,i) in menus" :key="i">{{item}}</a>
-</div>
-  
-
-  
+</div>  
   <div  v-for="(item,i) in oneroom" :key="i">
     <img :src="item.image" class="room-img">
     <h4 @click="modal = true">{{item.title}}</h4>
